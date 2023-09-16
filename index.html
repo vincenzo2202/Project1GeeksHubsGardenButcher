@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garden Butcher</title>
-    
+
     <!-- Vinculo con CSS bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Vinculo con el CSS del Proyecto  -->
     <link rel="stylesheet" href="/CSS/style.css">
@@ -15,16 +16,14 @@
 
 <body>
     <div class="container-fluid ">
-        <!-- Esto es la imagen del header de la pagina  -->
-        <div class="row banner">Aquí va el banner</div>
 
         <!-- Esto es la navBar del menu -->
         <div class="row menu ">
-            
-            <nav class="navbar navbar-expand-lg bg-body-tertiary  " >
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
                 <!-- Esto es el logo en la NavBar -->
                 <div class="container-fluid barraMenu " style="background-color: #ffffff;">
-                    <a href="/index.html"><img class="logoBanner" src="/img/GB1.png" alt="logo" ></a>
+                    <a href="/index.html"><img class="logoBanner" src="/img/GB1.png" alt="logo"></a>
                     <!-- Termina el logo -->
 
                     <a class="navbar-brand" href="/index.html">Garden Butcher</a>
@@ -48,9 +47,61 @@
 
 
         <!-- Esto es el banner para que el cliente pueda reservar en cualquier momento viendo nuestras deliciosas hambuerguesas -->
-        <div class="row reservar"> </div>
+        <div class="row bannerFotos ">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/img/car1.jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/img/car22.jpg" class="d-block w-100 img-fluid" alt="car2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/car3.jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
         <!-- Esto es el cuerpo de la pagina  -->
-        <div class="row cuerpo">prueba</div>
+        <div class="row cuerpo">
+
+            <div class="col  cajaf1"></div>
+            <div class="col-10 cajaf1">
+                <div class="container-fluid">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 cajaf1">
+                        <div class="col imgvida"><img src="/img/viveydejavivir.jpg" class="img-fluid imgvida"
+                                alt="masVida"></div>
+                        <div class=" container-fluid col historia">
+                            <h3>Nuestra Historia</h3><br>
+                            <p>En el corazón de nuestra cocina se encuentra una pasión compartida por la comida deliciosa y la sostenibilidad. Fundada por amantes de la gastronomía y defensores del bienestar animal, nuestra historia comenzó con un simple deseo: crear hamburguesas que  no solo fueran irresistibles, sino también respetuosas con el planeta y todos los seres vivos que lo habitan.</p><br>
+
+                            <h3>Nuestra Misión</h3><br>
+                            <p>En Garden Butcher, creemos que la comida vegana puede ser una experiencia culinaria emocionante y gratificante para todos. Nuestra misión es ofrecer una alternativa sabrosa y ética a las hamburguesas tradicionales, inspirando a las personas a hacer elecciones alimentarias más conscientes y sostenibles sin renunciar al placer de una buena comida.
+                            </p><br>
+
+                            <h3>Únete a la Revolución Vegana</h3><br> 
+                            <p>Estamos emocionados por el futuro de la comida vegana y esperamos que te unas a nosotros en este viaje. Explora nuestra página web, descubre recetas y consejos útiles, y déjate inspirar para llevar un estilo de vida más saludable y sostenible.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col cajaf1"> </div>
+
+        </div>
         <!-- Esto es el footer de la pagina  -->
         <div class="row pie">prueba</div>
 
