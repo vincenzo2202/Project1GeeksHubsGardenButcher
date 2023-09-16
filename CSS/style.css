@@ -1,82 +1,100 @@
- 
-.container-fluid{
-    margin: 0;
-    padding: 0; 
-     
-}
-.menu{
-    background-color: rgb(254, 254, 254);
-    padding: 0;
-    margin: 0;
+ .container-fluid {
+     margin: 0;
+     padding: 0;
 
-    
+ }
 
-}
+ .menu {
+     background-color: rgb(254, 254, 254);
+     padding: 0;
+     margin: 0;
 
-.logoBanner{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 70px; 
-    height: 70px; 
-}
-.cuerpo{
-background-color: rgb(0, 0, 0);
-color: rgb(0, 0, 0); 
- 
- 
-}
+ }
 
-.formulario {
-    padding: 2em;
-    margin: 3em;
-    margin-top: 0;
+ .logoBanner {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     width: 70px;
+     height: 70px;
+ }
 
-   background-color: rgb(255, 255, 255);
-   border-radius: 10%;
-   border: 0.2em solid black;
-   color: black;
-}
- 
- 
-.help{
-    padding: 1em;
-    color:  #fff;
-    font-family: "Knockout", serif;
+ .cuerpo {
+     background-color: rgb(0, 0, 0);
+     color: rgb(0, 0, 0);
 
-}
-
-.carousel-image {
-    height: 300px; /* Cambia esto al alto deseado */
-  }
-
-
-  .cajaf1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
    
-    margin: 0;
-    padding: 0.5em;
-    height: auto;
-    color: #fff;
-    padding-top: 1em;
+ }
 
-  }
-  
+ .formulario {
+     padding: 2em;
+     margin: 3em;
+     margin-top: 0;
 
-.pie{
+     background-color: rgb(200, 200, 200);
+     border-radius: 10%;
+     border: 0.2em solid black;
+     color: black;
+ }
+
+#floatingTextarea2 {
+    height: 30px;
+    width: 100%;
+    resize: none;
+}
+
+ .help {
+     padding: 1em;
+     color: #fff;
+     font-family: "Knockout", serif;
+
+ }
+
+ .carousel-image {
+     height: 300px;
+     /* Cambia esto al alto deseado */
+ }
+
+
+ .cajaf1 {
+
+     margin: 0;
+     padding: 0.5em;
+     height: auto;
+     color: #fff;
+     padding-top: 1em;
+
+ }
+
+
+ .pie {
     height: 1em;
-}
+    background-color: black;
+ }
 
+ .imgvida {
+     border-radius: 15%;
+     margin: auto;
+ }
 
+ .historia {
+     padding-top: 1em;
+     margin-top: 1em;
+     text-align: justify;
+ }
+
+ .botonesRapidos{
+    background-color: rgb(255, 255, 255);
+    margin: 1em;
  
+  }
 
-.imgvida{
-   border-radius : 15%; 
-   margin:auto;
+.why{
+    background-color: black;
+    color: white;
+    border: 0.1em solid red;
+    padding: 0.5em;
 }
-
-.historia{
-    padding-top: 1em;
-    margin-top: 1em;
-    text-align: justify;
-}
- 
