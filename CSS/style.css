@@ -91,10 +91,64 @@
     margin: 1em;
  
   }
+.infovegan{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    height: auto;
+    width: auto;
+
+  }
+
 
 .why{
     background-color: black;
     color: white;
-    border: 0.1em solid red;
+  
     padding: 0.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
 }
+
+.whytext{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 2em;
+}
+
+.imgfree{
+    border-radius: 15%;
+    
+    height: 15em;
+    margin-left: 10em;
+    margin-right: 10em;
+
+    transition: 2s;
+    rotate: 0deg;
+  }
+.imgfree:hover{
+    border-radius: 15%; 
+    height: 20em;
+    transition: 2s;
+    margin-left: 10em;
+    margin-bottom: 1em; 
+    rotate: 360deg;
+}
+
+.imgvibes{
+  height: auto;
+  width: auto;
+    margin-left: 10em;
+    margin-right: 10em;
+
+     
+     
+
+}
+ 
