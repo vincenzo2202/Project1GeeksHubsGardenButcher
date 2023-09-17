@@ -1,15 +1,25 @@
+ body {
+     font-family: 'Comic Neue', cursive;
+     font-family: 'Lobster', cursive;
+
+     margin: 0 !important;
+     padding: 0;
+ }
+
+
+
  .container-fluid {
-     margin: 0;
+     margin: 0 !important;
      padding: 0;
 
  }
 
  .menu {
      background-color: rgb(254, 254, 254);
-     padding: 0;
      margin: 0;
 
  }
+
 
  .logoBanner {
      display: flex;
@@ -19,6 +29,8 @@
      height: 70px;
  }
 
+ .GBtitle {}
+
  .cuerpo {
      background-color: rgb(0, 0, 0);
      color: rgb(0, 0, 0);
@@ -26,7 +38,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-   
+
  }
 
  .formulario {
@@ -40,11 +52,11 @@
      color: black;
  }
 
-#floatingTextarea2 {
-    height: 30px;
-    width: 100%;
-    resize: none;
-}
+ #floatingTextarea2 {
+     height: 30px;
+     width: 100%;
+     resize: none;
+ }
 
  .help {
      padding: 1em;
@@ -71,8 +83,8 @@
 
 
  .pie {
-    height: 1em;
-    background-color: black;
+     height: 1em;
+     background-color: black;
  }
 
  .imgvida {
@@ -86,167 +98,177 @@
      text-align: justify;
  }
 
- .botonesRapidos{
-    background-color: rgb(255, 255, 255);
-    margin: 1em;
- 
-  }
-.infovegan{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    background-color: black;
-    height: auto;
-    width: auto;
-
-  }
-
-
-.why{
-    background-color: black;
-    color: white;
-  
-    padding: 0.5em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-   
-}
-
-.whytext{
-
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    font-size: 2em;
-}
-
-.imgfree{
-    border-radius: 15%;
-    
-    height: 15em;
-    margin-left: 10em;
-    margin-right: 10em;
-
-    transition: 2s;
-    rotate: 0deg;
-  }
-.imgfree:hover{
-    border-radius: 15%; 
-    height: 20em;
-    transition: 2s;
-    margin-left: 10em;
-    margin-bottom: 1em; 
-    rotate: 360deg;
-}
-
-.imgvibes{
-  height: auto;
-  width: auto;
-    margin-left: 10em;
-    margin-right: 10em;
-
+ .botonesRapidos {
+     background-color: rgb(255, 255, 255);
+     padding: 0.45em;
      
      
 
-}
 
-.entrantes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    color: #000000;
-    background-color: #fff;
-}
+ }
 
-.plato1 {
-    
-    color: yellow;
-    width: auto;
+ .infovegan {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     height: auto;
+     width: auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: auto;
-    padding-top: 1em;
-   
-}
-
-.margen{
-    width: 8em;
-    
-    
-    color: white;
-}
-
-.caja{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
+ }
 
 
-.menux{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ .why {
+     background-color: black;
+     color: white;
 
-}
- 
-.card{
-    width: 250px;
-    height:300px;    
-    overflow:hidden;
-    position:relative;
-}
+     padding: 0.5em;
 
-.card-img{
+     display: flex;
+     justify-content: center;
+     align-items: center;
 
-    position:absolute;
-} 
 
-.card-title{
-    color: #fff;
-    text-shadow: 0.06em 0.09em 0.09em  black;
 
-}
+ }
 
-.card-img-overlay:hover{
+ .whytext {
 
-    backdrop-filter: blur(1.5px);
-}
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2em;
+ }
 
-.precio{
-    color: transparent ;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-}
+ .imgfree {
+     border-radius: 25%;
 
-.precio:hover{
-    color: white ;
-    text-shadow: 0.06em 0.09em 0.09em  black;
-    
-}
+     height: 15em;
+     margin-left: 10em;
+     margin-right: 10em;
 
-.reservaRapida{
-   
-    position: sticky;
-    top: 0;
+     transition: 2s;
+     rotate: 0deg;
+ }
+
+ .imgfree:hover {
+     border-radius: 15%;
+     height: 20em;
+     transition: 2s;
+     margin-left: 10em;
+     margin-bottom: 1em;
+     rotate: 360deg;
+ }
+
+ .imgvibes {
+     height: auto;
+     width: auto;
+     margin-left: 10em;
+     margin-right: 10em;
+
+ }
+
+ .entrantes {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 2em;
+     color: #000000;
+     background-color: #fff;
+
+ }
+
+ .plato1 {
+
+     color: yellow;
+     width: auto;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     height: auto;
+     padding-top: 1em;
+
+ }
+
+ .margen {
+     width: 8em;
+
+
+     color: white;
+ }
+
+ .caja {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+
+ .menux {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .card {
+     width: 250px;
+     height: 300px;
+     overflow: hidden;
+     position: relative;
+ }
+
+ .card-img {
+
+     position: absolute;
+ }
+
+ .card-title {
+     color: #fff;
+     text-shadow: 0.06em 0.09em 0.09em black;
+
+ }
+
+ .card-img-overlay:hover {
+
+     backdrop-filter: blur(1.5px);
+ }
+
+ .precio {
+     color: transparent;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2em;
+ }
+
+ .precio:hover {
+     color: white;
+     text-shadow: 0.06em 0.09em 0.09em black;
+
+ }
+
+ .reservaRapida {
+
+     position: sticky;
+     top: 0;
     margin: 0;
-    padding: 1em;
-    z-index: 100;
-}
+     width: 100vw;
+     padding: 0.5em;
+     z-index: 100;
+     border: 0.05em solid black;
+     background-color: rgb(255, 223, 171);
 
-.desplegable{
 
-    padding: 1em;
-    gap: 0.5em;
-}
+ }
+
+ .desplegable {
+
+     padding: 1em;
+     gap: 0.5em;
+ }

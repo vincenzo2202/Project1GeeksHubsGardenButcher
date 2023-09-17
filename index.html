@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garden Butcher</title>
+    <title >Garden Butcher</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lobster&display=swap" rel="stylesheet">
 
     <!-- Vinculo con CSS bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,11 +18,11 @@
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 
-<body>
-    <div class="container-fluid ">
+<body class=" container-fluid  ">
+    <div class=" container-fluid  ">
 
         <!-- Esto es la navBar del menu -->
-        <div class="row menu ">
+        <div class="row menu container-fluid">
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
                 <!-- Esto es el logo en la NavBar -->
@@ -26,7 +30,7 @@
                     <a href="/index.html"><img class="logoBanner" src="/img/GB1.png" alt="logo"></a>
                     <!-- Termina el logo -->
 
-                    <a class="navbar-brand" href="/index.html">Garden Butcher</a>
+                    <a class="navbar-brand GBtitle" href="/index.html">Garden Butcher</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -47,8 +51,8 @@
 
         <!-- Esto es el banner para que el cliente pueda reservar en cualquier momento viendo nuestras deliciosas hambuerguesas -->
         <div class="row bannerFotos ">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+            <div id="carouselExampleInterval " class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner ">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="/img/car1.jpg" class="d-block w-100 img-fluid" alt="...">
                     </div>
@@ -73,12 +77,10 @@
 
         </div>
 
-
-
         <!-- Banner de Reserva sticky -->
-        <div class="row container-fluid botonesRapidos reservaRapida">
+        <div class="container-fluid row reservaRapida ">
 
-            <div class="row container-fluid ">
+            <div class="row container-fluid  ">
                 <div class="dropdown ">
                     <div class="row container-fluid">
                         <button class="btn btn-danger dropdown-toggle " type="button" id="dropdownMenuDark"
@@ -93,7 +95,7 @@
                                     <div class="col-sm-3">
                                         <label class="visually-hidden" for="specificSizeInputName">Name</label>
                                         <input type="text" class="form-control" id="specificSizeInputName"
-                                        placeholder="¿Como quieres que te llamemos?">
+                                            placeholder="¿Como quieres que te llamemos?">
                                     </div>
 
                                     <div class="col-sm-3">
@@ -126,67 +128,67 @@
                                     <div class="col-sm-2">
                                         <label class="visually-hidden" for="specificSizeSelect">Fecha</label>
                                         <input id="startDate" class="form-control" type="date" />
-                                        <span id="startDateSelected"></span> 
+                                        <span id="startDateSelected"></span>
                                     </div>
 
                                     <div class="col-sm-3">
                                         <label class="visually-hidden" for="specificSizeSelect">Horario</label>
-                                        <select class="form-select" id="specificSizeSelect"> 
-                                            <option value="12:00" >12:00</option>
-                                            <option value="12:15" >12:15</option>
-                                            <option value="12:30" >12:30</option>
-                                            <option value="12:45" >12:45</option>
-                                            <option value="13:00" >13:00</option>
-                                            <option value="13:15" >13:15</option>
-                                            <option value="13:30" >13:30</option>
-                                            <option value="13:45" >13:45</option>
-                                            <option value="14:00" >14:00</option>
-                                            <option value="14:15" >14:15</option>
-                                            <option value="14:30" >14:30</option>
-                                            <option value="14:45" >14:45</option>
-                                            <option value="15:00" >15:00</option>
-                                            <option value="15:15" >15:15</option>
-                                            <option value="15:30" >15:30</option>
-                                            <option value="15:45" >15:45</option>
-                                            <option value="16:00" >16:00</option>
-                                            <option value="16:15" >16:15</option>
-                                            <option value="16:30" >16:30</option>
-                                            <option value="16:45" >16:45</option>
-                                            <option value="17:00" >17:00</option>
-                                            <option value="17:15" >17:15</option>
-                                            <option value="17:30" >17:30</option>
-                                            <option value="17:45" >17:45</option>
-                                            <option value="18:00" >18:00</option>
-                                            <option value="18:15" >18:15</option>
-                                            <option value="18:30" >18:30</option>
-                                            <option value="18:45" >18:45</option>
-                                            <option value="19:00" >19:00</option>
-                                            <option value="19:15" >19:15</option>
-                                            <option value="19:30" >19:30</option>
-                                            <option value="19:45" >19:45</option>
-                                            <option value="20:00" >20:00</option>
-                                            <option value="20:15" >20:15</option>
-                                            <option value="20:30" >20:30</option>
-                                            <option value="20:45" >20:45</option>
-                                            <option value="21:00" >21:00</option>
-                                            <option value="21:15" >21:15</option>
-                                            <option value="21:30" >21:30</option>
-                                            <option value="21:45" >21:45</option>
-                                            <option value="22:00" >22:00</option>
-                                            <option value="22:15" >22:15</option>
-                                            <option value="22:30" >22:30</option>
-                                            <option value="22:45" >22:45</option>
-                                            <option value="23:00" >23:00</option>
-                                            <option value="23:15" >23:15</option>
-                                            <option value="23:30" >23:30</option>
-                                            <option value="23:45" >23:45</option>
-                                        </select> 
+                                        <select class="form-select" id="specificSizeSelect">
+                                            <option value="12:00">12:00</option>
+                                            <option value="12:15">12:15</option>
+                                            <option value="12:30">12:30</option>
+                                            <option value="12:45">12:45</option>
+                                            <option value="13:00">13:00</option>
+                                            <option value="13:15">13:15</option>
+                                            <option value="13:30">13:30</option>
+                                            <option value="13:45">13:45</option>
+                                            <option value="14:00">14:00</option>
+                                            <option value="14:15">14:15</option>
+                                            <option value="14:30">14:30</option>
+                                            <option value="14:45">14:45</option>
+                                            <option value="15:00">15:00</option>
+                                            <option value="15:15">15:15</option>
+                                            <option value="15:30">15:30</option>
+                                            <option value="15:45">15:45</option>
+                                            <option value="16:00">16:00</option>
+                                            <option value="16:15">16:15</option>
+                                            <option value="16:30">16:30</option>
+                                            <option value="16:45">16:45</option>
+                                            <option value="17:00">17:00</option>
+                                            <option value="17:15">17:15</option>
+                                            <option value="17:30">17:30</option>
+                                            <option value="17:45">17:45</option>
+                                            <option value="18:00">18:00</option>
+                                            <option value="18:15">18:15</option>
+                                            <option value="18:30">18:30</option>
+                                            <option value="18:45">18:45</option>
+                                            <option value="19:00">19:00</option>
+                                            <option value="19:15">19:15</option>
+                                            <option value="19:30">19:30</option>
+                                            <option value="19:45">19:45</option>
+                                            <option value="20:00">20:00</option>
+                                            <option value="20:15">20:15</option>
+                                            <option value="20:30">20:30</option>
+                                            <option value="20:45">20:45</option>
+                                            <option value="21:00">21:00</option>
+                                            <option value="21:15">21:15</option>
+                                            <option value="21:30">21:30</option>
+                                            <option value="21:45">21:45</option>
+                                            <option value="22:00">22:00</option>
+                                            <option value="22:15">22:15</option>
+                                            <option value="22:30">22:30</option>
+                                            <option value="22:45">22:45</option>
+                                            <option value="23:00">23:00</option>
+                                            <option value="23:15">23:15</option>
+                                            <option value="23:30">23:30</option>
+                                            <option value="23:45">23:45</option>
+                                        </select>
                                         </option>
                                         </select>
                                     </div>
 
                                     <div class="col-auto">
-                                    <button type="submit" class="btn btn-primary">Reservar</button>
+                                        <button type="submit" class="btn btn-primary">Reservar</button>
                                     </div>
                                 </form>
 
@@ -237,20 +239,18 @@
         </div>
 
         <!-- Estos son bonotes de acceso rápido a menú y a reservar -->
-        <div class="row botonesRapidos">
-            <div class="row gap-2 col-6 mx-auto">
-                <a class="col btn btn-danger" href="/pages/book.html"><button class="col btn btn-danger"
-                        type="button">Reservar</button></a>
+        <div class="row  botonesRapidos">
+            <div class="row gap-2 col-6 mx-auto botonesRapidos">
+                <a class="col btn btn-danger " href="/pages/book.html"><button class="col btn btn-danger" type="button">Reservar</button></a>
 
-                <a class="col btn btn-danger" href="/pages/menu.html"><button class=" col btn btn-danger"
-                        type="button">Menú</button></a>
+                <a class="col btn btn-danger" href="/pages/menu.html"><button class=" col btn btn-danger" type="button">Menú</button></a>
 
             </div>
         </div>
 
         <!-- Sección de ¿Por qué Vegano? -->
         <div class="row">
-            <div class=" rowtitlewhy text-center why">¿Por qué es mejor vegano?</div>
+            <div class=" rowtitlewhy text-center why"><h2>¿Por qué es mejor vegano? </h2></div>
             <div class="container-fluid row infovegan">
 
                 <div class="col-12 col-md-6 col-lg-6 why">
@@ -287,6 +287,7 @@
 
         </div>
 
+   
         <!-- Esto es el footer de la pagina  -->
         <div class="row pie">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -300,7 +301,7 @@
                 </a>
 
                 <ul class="nav col-md-4 justify-content-end">
-                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
                     <li class="nav-item"><a href="/pages/menu.html" class="nav-link px-2 text-body-secondary">Carta</a>
                     </li>
                     <li class="nav-item"><a href="/pages/book.html"
