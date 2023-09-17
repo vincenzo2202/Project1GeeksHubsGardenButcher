@@ -1,11 +1,16 @@
  body {
-     font-family: 'Comic Neue', cursive;
-     font-family: 'Lobster', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    
+     font-size: 2em;
 
      margin: 0 !important;
      padding: 0;
  }
 
+ 
+ .GBtitle {
+    font-family: 'Lilita One', cursive;
+ }
 
 
  .container-fluid {
@@ -29,8 +34,6 @@
      height: 70px;
  }
 
- .GBtitle {}
-
  .cuerpo {
      background-color: rgb(0, 0, 0);
      color: rgb(0, 0, 0);
@@ -38,6 +41,8 @@
      display: flex;
      justify-content: center;
      align-items: center;
+
+     font-size: 0.5em;
 
  }
 
@@ -61,7 +66,7 @@
  .help {
      padding: 1em;
      color: #fff;
-     font-family: "Knockout", serif;
+   
 
  }
 
@@ -85,6 +90,7 @@
  .pie {
      height: 1em;
      background-color: black;
+     font-size: 0.5em;
  }
 
  .imgvida {
@@ -99,12 +105,8 @@
  }
 
  .botonesRapidos {
-     background-color: rgb(255, 255, 255);
-     padding: 0.45em;
-     
-     
-
-
+    background-image: linear-gradient(black, white, white, white, black);
+     padding: 0.9em;
  }
 
  .infovegan {
@@ -122,14 +124,13 @@
      background-color: black;
      color: white;
 
-     padding: 0.5em;
+     padding: 1em;
 
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: center; 
 
-
-
+     font-size: 0.5em;
  }
 
  .whytext {
@@ -144,8 +145,7 @@
      border-radius: 25%;
 
      height: 15em;
-     margin-left: 10em;
-     margin-right: 10em;
+    
 
      transition: 2s;
      rotate: 0deg;
@@ -155,8 +155,8 @@
      border-radius: 15%;
      height: 20em;
      transition: 2s;
-     margin-left: 10em;
-     margin-bottom: 1em;
+     margin-left: 5em;
+     margin-bottom: 3em;
      rotate: 360deg;
  }
 
@@ -172,9 +172,11 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     padding: 2em;
+     padding: 0.5em;
      color: #000000;
      background-color: #fff;
+
+     background-image: linear-gradient(black, white, white, white, black);
 
  }
 
@@ -244,7 +246,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     font-size: 2em;
+     font-size: 1.2em;
  }
 
  .precio:hover {
@@ -255,20 +257,25 @@
 
  .reservaRapida {
 
-     position: sticky;
-     top: 0;
+    position: sticky;
+    top:0;
     margin: 0;
-     width: 100vw;
-     padding: 0.5em;
-     z-index: 100;
-     border: 0.05em solid black;
-     background-color: rgb(255, 223, 171);
-
-
+    width: 100vw;
+    padding: 0.5em;
+    z-index: 100;
+    border: 0.05em solid black;
+    background-color: rgb(255, 223, 171);
  }
 
  .desplegable {
 
      padding: 1em;
      gap: 0.5em;
+ }
+
+ h1 {
+     color: red;
+     text-shadow: 0.03em 0.02em rgb(255, 255, 169);
+     font-size: 2em;
+     text-align: left;
  }
