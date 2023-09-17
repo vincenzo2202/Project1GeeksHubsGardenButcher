@@ -235,3 +235,18 @@
     text-shadow: 0.06em 0.09em 0.09em  black;
     
 }
+
+.reservaRapida{
+   
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 1em;
+    z-index: 100;
+}
+
+.desplegable{
+
+    padding: 1em;
+    gap: 0.5em;
+}

@@ -68,6 +68,130 @@
 
         </div>
 
+          <!-- Banner de Reserva sticky -->
+          <div class="row container-fluid botonesRapidos reservaRapida">
+
+            <div class="row container-fluid ">
+                <div class="dropdown ">
+                    <div class="row container-fluid">
+                        <button class="btn btn-danger dropdown-toggle " type="button" id="dropdownMenuDark"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ¡RESERVA YA!
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark desplegable" aria-labelledby="dropdownMenuDark">
+
+                            <div class="cajonReserva">
+                                <!-- ESto es el formulario de reserva rápido  -->
+                                <form class="row gx-3 gy-2 align-items-center">
+                                    <div class="col-sm-3">
+                                        <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                                        <input type="text" class="form-control" id="specificSizeInputName"
+                                        placeholder="¿Como quieres que te llamemos?">
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <label class="visually-hidden" for="specificSizeSelect">Ciudad</label>
+                                        <select class="form-select" id="specificSizeSelect">
+                                            <option selected>Ciudad</option>
+                                            <option value="1">Valencia</option>
+                                            <option value="2">Madrid</option>
+                                            <option value="3">Barcelona</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-1">
+                                        <label class="visually-hidden" for="specificSizeSelect">Personas</label>
+                                        <select class="form-select" id="specificSizeSelect">
+                                            <option selected>Personas</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="11">+10</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-2">
+                                        <label class="visually-hidden" for="specificSizeSelect">Fecha</label>
+                                        <input id="startDate" class="form-control" type="date" />
+                                        <span id="startDateSelected"></span> 
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <label class="visually-hidden" for="specificSizeSelect">Horario</label>
+                                        <select class="form-select" id="specificSizeSelect"> 
+                                            <option value="12:00" >12:00</option>
+                                            <option value="12:15" >12:15</option>
+                                            <option value="12:30" >12:30</option>
+                                            <option value="12:45" >12:45</option>
+                                            <option value="13:00" >13:00</option>
+                                            <option value="13:15" >13:15</option>
+                                            <option value="13:30" >13:30</option>
+                                            <option value="13:45" >13:45</option>
+                                            <option value="14:00" >14:00</option>
+                                            <option value="14:15" >14:15</option>
+                                            <option value="14:30" >14:30</option>
+                                            <option value="14:45" >14:45</option>
+                                            <option value="15:00" >15:00</option>
+                                            <option value="15:15" >15:15</option>
+                                            <option value="15:30" >15:30</option>
+                                            <option value="15:45" >15:45</option>
+                                            <option value="16:00" >16:00</option>
+                                            <option value="16:15" >16:15</option>
+                                            <option value="16:30" >16:30</option>
+                                            <option value="16:45" >16:45</option>
+                                            <option value="17:00" >17:00</option>
+                                            <option value="17:15" >17:15</option>
+                                            <option value="17:30" >17:30</option>
+                                            <option value="17:45" >17:45</option>
+                                            <option value="18:00" >18:00</option>
+                                            <option value="18:15" >18:15</option>
+                                            <option value="18:30" >18:30</option>
+                                            <option value="18:45" >18:45</option>
+                                            <option value="19:00" >19:00</option>
+                                            <option value="19:15" >19:15</option>
+                                            <option value="19:30" >19:30</option>
+                                            <option value="19:45" >19:45</option>
+                                            <option value="20:00" >20:00</option>
+                                            <option value="20:15" >20:15</option>
+                                            <option value="20:30" >20:30</option>
+                                            <option value="20:45" >20:45</option>
+                                            <option value="21:00" >21:00</option>
+                                            <option value="21:15" >21:15</option>
+                                            <option value="21:30" >21:30</option>
+                                            <option value="21:45" >21:45</option>
+                                            <option value="22:00" >22:00</option>
+                                            <option value="22:15" >22:15</option>
+                                            <option value="22:30" >22:30</option>
+                                            <option value="22:45" >22:45</option>
+                                            <option value="23:00" >23:00</option>
+                                            <option value="23:15" >23:15</option>
+                                            <option value="23:30" >23:30</option>
+                                            <option value="23:45" >23:45</option>
+                                        </select> 
+                                        </option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary">Reservar</button>
+                                    </div>
+                                </form>
+
+                                <!-- Termina el formulario aquí -->
+
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Esto es el cuerpo de la pagina  -->
         <div class="row container-fluid cuerpo">
             <div class="row container  entrantes"> ENTRANTES </div>
