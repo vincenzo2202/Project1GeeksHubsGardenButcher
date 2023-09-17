@@ -151,4 +151,87 @@
      
 
 }
+
+.entrantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    color: #000000;
+    background-color: #fff;
+}
+
+.plato1 {
+    
+    color: yellow;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: auto;
+    padding-top: 1em;
+   
+}
+
+.margen{
+    width: 8em;
+    
+    
+    color: white;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
  
+}
+
+
+.menux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.card{
+    width: 250px;
+    height:300px;    
+    overflow:hidden;
+    position:relative;
+}
+
+.card-img{
+
+    position:absolute;
+} 
+
+.card-title{
+    color: #fff;
+    text-shadow: 0.06em 0.09em 0.09em  black;
+
+}
+
+.card-img-overlay:hover{
+
+    backdrop-filter: blur(1.5px);
+}
+
+.precio{
+    color: transparent ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.precio:hover{
+    color: white ;
+    text-shadow: 0.06em 0.09em 0.09em  black;
+    
+}
