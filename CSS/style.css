@@ -278,8 +278,8 @@
  }
 
  .botonY{
-    color: rgb(55, 255, 0);
-    text-shadow: 0.1em 0.02em rgb(0, 0, 0);
+    color: rgb(200, 255, 18);
+    text-shadow: 0.07em 0.05em rgb(0, 0, 0);
     font-family:Arial, Helvetica, sans-serif ;
     font-weight: bold;
     font-size: 1em;
@@ -388,3 +388,5 @@ letrapie{
 .gbtop{
     font-size: 4em;
 }
+
+ 
