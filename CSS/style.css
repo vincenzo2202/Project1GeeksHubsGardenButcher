@@ -264,7 +264,14 @@
     padding: 0.5em;
     z-index: 100;
     border: 0.05em solid black;
-    background-color: rgb(255, 223, 171);
+    background-color: rgb(0, 0, 0);
+   
+    
+ }
+
+ .botonY{
+    color: rgb(204, 255, 0);
+    text-shadow: 0.1em 0.05em rgb(0, 0, 0);
  }
 
  .desplegable {
