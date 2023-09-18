@@ -1,4 +1,4 @@
-# Garden Butcher
+ # Garden Butcher
 
 Garden Butcher es una WEB para un restaurante que tiene principios de respeto animal por lo que toda la comida que se comercializa es vegana. Encontramos platos principales con una gran variedad de hamburguesas que se pueden acompañar de los entrantes y bebidas del menú.
 
@@ -15,19 +15,17 @@ Garden Butcher es una WEB para un restaurante que tiene principios de respeto an
 
 ## Introducción
 
-Este ha sido mi primer proyecto durante mi formación como desarrollador Full Stack en GeeksHubs Academy, que con solo una semana de formación me ha permitodo realizar una Web para un restaurante utilizando tecnologías nuevas para mi.
+Este ha sido mi primer proyecto durante mi formación como desarrollador Full Stack en GeeksHubs Academy, que con solo una semana de formación me ha permitido realizar una Web para un restaurante utilizando tecnologías nuevas para mi.
 
 La inspiración de la temática parte por los principios que tiene mi esposa y la dieta que ella lleva y a la cual estoy muy familiarizado. 
 
-
 ## Características
 
-En esta WEB podremos ver que consta de tres pestañas. La primera, es el home, donde nos da la bienvenida con un carrusel de fotos que incluyen mensajes utilizando copywrinting con la idea de impactar al visitante. Mientras vamos bajando nos encontramos un apartado donde habla un poco sobre la historia y misión del restaurante, hasta llegar al apartado que nos habla sobre los beneficios de la alimentación vegana.
+En esta WEB podremos ver que consta de tres pestañas. La primera, es el home, donde nos da la bienvenida con un carrusel de fotos que incluyen mensajes utilizando call to actions con la idea de impactar al visitante. Mientras vamos bajando nos encontramos un apartado donde habla un poco sobre la historia y misión del restaurante, hasta llegar al apartado que nos habla sobre los beneficios de la alimentación vegana.
 
 En la segunda pestaña, nos entramos la gran variedad de hamburguesas que tiene el menú, con entrantes y bebidas en la misma carta.
 
-y parta terminar, la tercera pestaña aporta información de contacto para el cliente, ademas, incluye un formulario donde el cliente podrá dirigirse al departamento correspondiente para para tarladar su información.
-
+y parta terminar, la tercera pestaña aporta información de contacto para el cliente, además, incluye un formulario donde el cliente podrá dirigirse al departamento correspondiente para para trasladar su información.
 
 ## Tecnologías Utilizadas
 
@@ -44,8 +42,8 @@ Agradecimientos especiales a mi profesor David Ochando por su entrega y dedicaci
 
 Algunos errores que no he podido solucionar es esta primera edición de este proyecto son: 
 
-- Los margenes derechos de la página los cuales con la clase container-fluid no he podido solucionar.
-- Algunas de las imagenes del menú tampoco se han podido ajustar a la caja contenedora.
+- Los márgenes derechos de la página los cuales con la clase container-fluid no he podido solucionar.
+- Algunas de las imágenes del menú tampoco se han podido ajustar a la caja contenedora.
 
 ## Capturas de Pantalla
 <img src="./img/p1.png" alt="drawing" width=""/>
@@ -58,3 +56,4 @@ Algunos errores que no he podido solucionar es esta primera edición de este pro
 
 <img src="./img/p4.png" alt="drawing" width=""/>
  
+
