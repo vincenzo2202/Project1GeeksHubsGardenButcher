@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
-<body class=" container-fluid  ">
+<body   >
   <div class="container-fluid ">
     <!-- Esto es la navBar del menu -->
     <div class="row menu ">
@@ -29,20 +29,19 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <!-- Esto es el logo en la NavBar -->
         <div class="container-fluid barraMenu" style="background-color: #ffffff;">
-          <a href="/index.html"><img class="logoBanner" src="../img/GB1.png" alt="logo"></a>
+          <a href="../index.html"><img class="logoBanner" src="../img/GB1.png" alt="logo"></a>
           <!-- Termina el logo -->
 
-          <a class="navbar-brand" href="/index.html">Garden Butcher</a>
+          <a class="navbar-brand GBtitle" href="../index.html">Garden Butcher</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-              <a class="nav-link" href=" menu.html">Menú</a>
-              <a class="nav-link" href=" book.html">Reservar</a>
-              <a class="nav-link" href=" contact.html">Contáctanos</a>
+            <div class="navbar-nav GBtitle">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a class="nav-link " href="./menu.html">Menú</a> 
+              <a class="nav-link" href="./contact.html">Contáctanos</a>
 
             </div>
           </div>
@@ -51,7 +50,7 @@
     </div>
 
       <!-- Banner de Reserva sticky -->
-      <div class="row container-fluid reservaRapida">
+      <div class="row  reservaRapida">
 
         <div class="row container-fluid ">
             <div class="dropdown ">
@@ -175,13 +174,44 @@
     </div>
  
     <!-- Esto es el cuerpo del formulario de reserva  -->
-    <div class="row f1">
-      <div class="row cuerpo">
-        <div class="container-fluid col-md-6 col-lg-6 ">
-            <img src="../img/questions.jpg" class="img-fluid" alt="questions">
+    <div class="row   f1">
+      <div class="row   cuerpo help">
+        <div class=" col-md-6 col-lg-6 datos ">
+           <div class="col-12   help ">
+            <h2>ESTAMOS EN CONTACTO</h2>
+            <p>Nos interesa tu opinión. Estamos deseando escucharte. Tanto si tienes dudas, sugerencias, algo que proponer… No dudes en escribirnos y te responderemos lo antes posible.</p>
+           </div>
+           <div class="row help"> 
+           <div class="col-md-6 col-lg-6   help">
+            <h2>Ubicación</h2>
+            <p>Ubicación
+              (JUNTO A LAS TORRES DE QUART)<br>
+              Carrer de Quart, 41b,<br>
+              46001 Valencia<br><br>
+              
+              Email: hola@gardenbutcher.com<br>
+              Teléfono: 963 120 901<br>
+              Móvil: 626 355 997</p>
+           </div>
+           <div class="col-md-6 col-lg-6  help ">
+            <h2>Horario de cocina</h2>
+            <p>
+              <ul>
+                <li>Lunes: Cerrado</li>
+                <li>Martes: 13:00-16:00/19:30-22:30</li>
+                <li>Miércoles: 13:00-16:00/19:30-22:30</li>
+                <li>Jueves: 13:00-16:00/19:30-22:30</li>
+                <li>Viernes: 13:00-16:00/19:30-23:00</li>
+                <li>Sábado: 13:00-16:00/19:30-23:00</li>
+                <li>Domingo: 13:00-16:00/19:30-23:00</li>
+              </ul>
+              *NOTA: la sala permanece abierta media hora tras del <br> cierre de cocina.
+            </p>
+           </div>
+          </div>
         </div>
-        <div class="col-md-6 col-lg-6 ">
-            <div class="text-center help"><h2>¿NECESITAS AYUDA?</h2></div>
+         <div class="   col-md-6 col-lg-6 ">
+            <div class="text-center help"><h2 class="GBtitle">¿NECESITAS AYUDA?</h2></div>
             <div class="text-center help">Para cualquier otro tema, no dudes en contactarnos utilizando el siguiente formulario.</div>
             <div class="formulario nombres">
                 <form>
@@ -222,7 +252,24 @@
                     <button type="submit" class="btn btn-primary my-1">Enviar</button>
                 </form>
             </div>
-        </div>
+         </div>
+       </div>
+
+
+      <div class="row container-fluid  cuerpo help ulti">
+      <div class="col-md-6 col-lg-6 ulti ">
+        <img src="../img/questions.jpg" class="img-fluid" alt="questions">
+      </div>
+      <div class="col-md-6 col-lg-6 datos  ">
+        <h2>EQUIPO GARDEN BUTCHER</h2><br>
+
+        <P>Si lo que te interesa es formar parte de nuestro equipo, envíanos tu CV a la dirección de correo electrónico hola@gardenbutcher.com
+          Indica en el asunto: “CV + tu nombre completo”. Describe brevemente por qué quieres trabajar con nosotros. Y no olvides adjuntar tu CV con fotografía y un teléfono de contacto.
+          Gracias.
+          
+         </P>
+       
+      </div> 
     </div>
     
     </div>
@@ -240,10 +287,9 @@
       </a>
   
       <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href=" menu.html" class="nav-link px-2 text-body-secondary">Carta</a></li>
-        <li class="nav-item"><a href=" book.html" class="nav-link px-2 text-body-secondary">Reservar</a></li>
-        <li class="nav-item"><a href=" contact.html" class="nav-link px-2 text-body-secondary">Contactanos</a></li>
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="./menu.html" class="nav-link px-2 text-body-secondary">Carta</a></li> 
+        <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-body-secondary">Contactanos</a></li>
         
       </ul>
     </footer>

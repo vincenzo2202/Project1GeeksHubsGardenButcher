@@ -1,15 +1,17 @@
  body {
     font-family: 'Nunito Sans', sans-serif;
-    
-     font-size: 2em;
+ 
+    font-size: 2em;
 
      margin: 0 !important;
      padding: 0;
+      
  }
 
  
  .GBtitle {
     font-family: 'Lilita One', cursive;
+    
  }
 
 
@@ -43,6 +45,8 @@
      align-items: center;
 
      font-size: 0.5em;
+
+     object-fit: cover;
 
  }
 
@@ -95,18 +99,21 @@
 
  .imgvida {
      border-radius: 15%;
-     margin: auto;
+     height: 20;
+     padding: 1em;
+      
  }
 
  .historia {
      padding-top: 1em;
      margin-top: 1em;
      text-align: justify;
+     font-size: 1.2em;
  }
 
  .botonesRapidos {
     background-image: linear-gradient(black, white, white, white, black);
-     padding: 0.9em;
+    padding: 0.9em;
  }
 
  .infovegan {
@@ -138,7 +145,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     font-size: 2em;
+     font-size: 1.7em;
  }
 
  .imgfree {
@@ -175,6 +182,7 @@
      padding: 0.5em;
      color: #000000;
      background-color: #fff;
+     font-size: 2em;
 
      background-image: linear-gradient(black, white, white, white, black);
 
@@ -270,8 +278,11 @@
  }
 
  .botonY{
-    color: rgb(204, 255, 0);
-    text-shadow: 0.1em 0.05em rgb(0, 0, 0);
+    color: rgb(55, 255, 0);
+    text-shadow: 0.1em 0.02em rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-size: 1em;
  }
 
  .desplegable {
@@ -282,7 +293,98 @@
 
  h1 {
      color: red;
-     text-shadow: 0.03em 0.02em rgb(255, 255, 169);
+     text-shadow: 0.05em 0.02em rgb(255, 255, 255);
      font-size: 2em;
      text-align: left;
  }
+
+ .flotantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+ }
+
+ .cartass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+
+ 
+
+ }
+
+.cartasize{
+    height: 5em;
+    width: 14em; 
+ }
+
+ .fotocarta{
+    
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  
+    
+ }
+
+
+ .cartasize:hover{
+    
+   height: 6em;
+   width: 15em;
+  
+    
+ }
+
+ .datos{
+   padding: 3em;
+ }
+
+ .ulti{
+    padding-top: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: justify;
+ }
+ 
+ p{
+    text-align: justify;
+ }
+
+.barraabajo{
+    height: 2em;
+    background-color: #000000;
+    width: 100vw;
+}
+
+letrapie{
+    background-color: #fff;
+}
+
+.imgvida{
+   
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+  
+
+}
+
+@keyframes example {
+    0%   {  bottom: 0px; top:0px;}
+    25%  {  bottom: 0px; top: 20px;}
+    50%  {  bottom:-100px; top:20px;}
+    75%  { bottom: 0px; top: -20px;}
+    100% { bottom: 0px; top: -20px;}
+  }
+
+.gbtop{
+    font-size: 4em;
+}
